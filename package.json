@@ -1,0 +1,25 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon src/index.js",
+    "dev" :"nodemon src/index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "bishal dhakal",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.6",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  }
+}
